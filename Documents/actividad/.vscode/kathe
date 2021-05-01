@@ -19,7 +19,7 @@ public class GrupoDepositos { 01 de mayo 2021
             break;
 
             case 3: deposito1 = new Deposito(); deposito2 = new Deposito(); deposito3 = new Deposito();
-            numeroDepositosGrupo = 3+2;
+            numeroDepositosGrupo = 3+2; modificacion
             break;
 
             default: System.out.println ("No se admiten más de tres depósitos");
