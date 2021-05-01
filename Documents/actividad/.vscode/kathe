@@ -1,5 +1,4 @@
-public class GrupoDepositos { 01 de mayo 2021 actividad numero 1 
-public class GrupoDepositos { 01 de mayo 2021 
+public class GrupoDepositos { 
     //Campos de la clase, algunos de ellos son tipo objetos de otra clase
     private Deposito deposito1;
     private Deposito deposito2;
@@ -14,13 +13,14 @@ public class GrupoDepositos { 01 de mayo 2021
             case 1: System.out.println ("Un grupo ha de tener más de un depósito"); break;
             
             case 2:
+            case 2: 
             deposito1 = new Deposito(); /*Al crear el objeto automáticamente se llama al constructor del mismo, en este caso sin parámetros. ESTO ES EJEMPLO DE SINTAXIS DE CREACIÓN DE UN OBJETO, EN ESTE CASO DENTRO DE OTRO */
             deposito2 = new Deposito();       
             numeroDepositosGrupo = 2;
             break;
 
             case 3: deposito1 = new Deposito(); deposito2 = new Deposito(); deposito3 = new Deposito();
-            numeroDepositosGrupo = 3+8x2;
+            numeroDepositosGrupo = 3;
             break;
 
             default: System.out.println ("No se admiten más de tres depósitos");
