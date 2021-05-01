@@ -1,4 +1,5 @@
 public class GrupoDepositos { 01 de mayo 2021 actividad numero 1 
+public class GrupoDepositos { 01 de mayo 2021 
     //Campos de la clase, algunos de ellos son tipo objetos de otra clase
     private Deposito deposito1;
     private Deposito deposito2;
