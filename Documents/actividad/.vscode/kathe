@@ -1,4 +1,4 @@
-public class GrupoDepositos {
+public class GrupoDepositos { 01 de mayo 2021 
     //Campos de la clase, algunos de ellos son tipo objetos de otra clase
     private Deposito deposito1;
     private Deposito deposito2;
@@ -36,4 +36,4 @@ public class GrupoDepositos {
         } else { return (deposito1.valorCapacidad() + deposito2.valorCapacidad()+ deposito3.valorCapacidad() ); }
         //Si el grupo se ha creado con un número de depósitos distinto de 2 o 3 saltará un error en tiempo de ejecución
     } //Cierre del método
-} //Cierre de la clase
+} //Cierre de la clase 
